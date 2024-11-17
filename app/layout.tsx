@@ -14,8 +14,8 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "Sarah Mitchell for Senate",
-  description: "Building a Better Future Together",
+  title: "Dr. John Ariko Namoit for Governor",
+  description: "Building a Better Turkana Together",
 };
 
 export default function RootLayout({
