@@ -125,7 +125,7 @@ export default function Home() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-4xl font-bold mb-8">Join Our Campaign</h2>
           <p className="text-xl mb-12">
-            Be part of the movement to bring positive change to our state.
+            Be part of the movement to bring positive change to Turkana.
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             <Button 

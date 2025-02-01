@@ -59,7 +59,7 @@ export function Navbar() {
         <div className="hidden lg:flex lg:flex-1 lg:justify-end gap-4">
           <ThemeToggle />
           <Button size="lg" className="rounded-lg font-semibold" asChild>
-            <Link href="/contact">Donate Now</Link>
+            <Link href="/contact">A Dozer</Link>
           </Button>
         </div>
       </nav>
@@ -84,7 +84,7 @@ export function Navbar() {
             <div className="py-3 flex items-center justify-between">
               <ThemeToggle />
               <Button className="flex-1 ml-4 rounded-lg font-semibold" asChild>
-                <Link href="/contact">Donate Now</Link>
+                <Link href="/contact">Lonyangkori</Link>
               </Button>
             </div>
           </div>

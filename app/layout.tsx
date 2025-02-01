@@ -6,6 +6,7 @@ import { Navbar } from "@/components/navbar";
 import { Footer } from "@/components/footer";
 import { AccessibilityProvider } from "@/components/providers/accessibility-provider";
 import { AccessibilityMenu } from "@/components/accessibility-menu";
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -14,7 +15,7 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "Dr. John Ariko Namoit for Governor",
+  title: "Dr. John Ariko Namoit",
   description: "Building a Better Turkana Together",
 };
 

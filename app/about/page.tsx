@@ -4,19 +4,47 @@ import { CheckCircle } from "lucide-react";
 export default function About() {
   const achievements = [
     {
-      year: "2020-2023",
-      title: "State Representative",
+      year: "2022-To Date",
+      title: "Member of Parliament - Turkana South",
       description: "Led initiatives for economic development and education reform",
     },
     {
-      year: "2018-2020",
-      title: "City Council Member",
+      year: "2016-2018",
+      title: "Turkana County Chief Officer - Roads and Transport",
+      description: "Led initiatives for economic development and education reform",
+    },
+    {
+      year: "2013-2016",
+      title: "Turkana County Budget Controller",
       description: "Championed local infrastructure projects and community programs",
     },
     {
-      year: "2015-2018",
-      title: "Community Organizer",
+      year: "2009-2013",
+      title: "Fund Account Manager",
       description: "Founded grassroots organizations for social justice and equality",
+    },
+  ];
+
+  const education = [
+    {
+      year: "2013-2017",
+      title: "Moi University",
+      description: "Doctor of Philosophy(Ph.D), Finance, General",
+    },
+    {
+      year: "2010 - 2012",
+      title: "University of Nairobi",
+      description: "Master of Business Administration(M.B.A), Accounting and Finance",
+    },
+    {
+      year: "2006 - 2008",
+      title: "Moi University",
+      description: "BBA Accounting and Finance",
+    },
+    {
+      year: "1997-2000",
+      title: "Lodwar High School",
+      description: "",
     },
   ];
 
@@ -36,8 +64,8 @@ export default function About() {
           <div className="space-y-4">
             <p className="text-lg">
               Dr. John Ariko Namoit has dedicated his life to public service and community
-              leadership. Born and raised in our state, he understands the
-              challenges and opportunities that face our communities.
+              leadership. Born and raised in our Turkana, he understands the
+              challenges and opportunities that face our communitty.
             </p>
             <p className="text-lg">
               With over 15 years of experience in public service, Dr. John Ariko Namoit
@@ -45,15 +73,39 @@ export default function About() {
               through collaborative leadership and innovative solutions.
             </p>
             <p className="text-lg">
-              His background in economics and public policy, combined with his
+              His background in Accounts and Finance, combined with his
               hands-on experience in community organizing, makes him uniquely
-              qualified to represent our state in the Senate.
+              qualified to represent our county in 2027.
             </p>
           </div>
         </div>
       </section>
 
-      {/* Achievements Timeline */}
+      {/* Education Timeline */}
+      <section>
+        <h2 className="text-3xl font-bold mb-8">Education</h2>
+        <div className="space-y-8">
+          {education.map((education, index) => (
+            <Card key={index} className="relative">
+              <div className="absolute left-4 top-4">
+                <CheckCircle className="h-6 w-6 text-primary" />
+              </div>
+              <CardContent className="pl-16 py-4">
+                <div className="mb-2">
+                  <span className="text-sm font-medium text-muted-foreground">
+                    {education.year}
+                  </span>
+                </div>
+                <h3 className="text-xl font-semibold mb-2">{education.title}</h3>
+                <p className="text-muted-foreground">{education.description}</p>
+              </CardContent>
+            </Card>
+          ))}
+        </div>
+      </section>
+
+
+      {/* Achievement Timeline */}
       <section>
         <h2 className="text-3xl font-bold mb-8">Career Highlights</h2>
         <div className="space-y-8">

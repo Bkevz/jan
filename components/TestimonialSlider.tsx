@@ -16,30 +16,30 @@ const testimonials: Testimonial[] = [
   {
     id: 1,
     quote: "Ariko's dedication to our community is unmatched. His vision for change is exactly what we need.",
-    author: "Sarah Johnson",
-    role: "Community Leader",
-    image: "https://randomuser.me/api/portraits/women/1.jpg"
+    author: "Raila Odinga",
+    role: "ODM Party Leader",
+    image: "/raila odinga.jfif"
   },
   {
     id: 2,
-    quote: "I've seen firsthand how committed he is to making real, positive changes in our neighborhood.",
-    author: "Michael Chen",
-    role: "Local Business Owner",
-    image: "https://randomuser.me/api/portraits/men/2.jpg"
+    quote: "I've seen firsthand how committed he is to making real, positive changes in Turkana South, a great leader.",
+    author: "William Ruto",
+    role: "Kenyan President",
+    image: "/ruto.jfif"
   },
   {
     id: 3,
     quote: "His approach to problem-solving and community engagement sets him apart from other candidates.",
-    author: "Emily Rodriguez",
-    role: "Education Advocate",
-    image: "https://randomuser.me/api/portraits/women/3.jpg"
+    author: "Gladys Wanga",
+    role: "ODM Chairlady",
+    image: "/wanga.jfif"
   },
   {
     id: 4,
     quote: "Ariko truly listens to the community and takes action based on our needs.",
-    author: "David Wilson",
-    role: "Youth Mentor",
-    image: "https://randomuser.me/api/portraits/men/4.jpg"
+    author: "Ndidi Nyoro",
+    role: "MP Kiharu",
+    image: "/nyoro.jfif"
   }
 ];
 

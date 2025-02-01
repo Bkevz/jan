@@ -4,63 +4,73 @@ import { BarChart, BookOpen, Heart, TrendingUp, Shield, Leaf } from "lucide-reac
 export default function Priorities() {
   const priorities = [
     {
-      title: "Economic Growth",
-      description: "Creating jobs and fostering innovation through strategic investments and small business support.",
+      title: "Food Security & Social Protection",
+      description: "Achieve food security through increased food production",
       icon: TrendingUp,
       details: [
-        "Support for small businesses",
-        "Job training programs",
-        "Infrastructure investment"
+        "Build 2 mega dams for irrigation",
+        "Increasing the productivity existing Irrigations Scheemes",
+        "Revamp Turkana Disaster and Contigency Planning Unit for disaster preparedness",
+        "Collaborate with partners to make Turkana great Again",
+        "Mechanization of Agriculture and provision of farm inputs"
       ]
     },
     {
-      title: "Education",
-      description: "Ensuring quality education is accessible and affordable for all students.",
+      title: "Health Care",
+      description: "Ensure quality and accessible healthcare for all",
       icon: BookOpen,
       details: [
-        "Reduce student debt",
-        "Increase teacher pay",
-        "Modernize classrooms"
+        "Ambulance to each ward in Turkana",
+        "Build and equip state of the art level 6 hospital in Turkana county",
+        "Equip and Increase the capacity of LCRH to handle specialized medical care",
+        "Enroll PWD's Aged and Vulnerable households to SHIF/SHA",
+        "Establish and Equip more dispensaries in every Devolved Unit",
+        "Allocate funds for medical training to increase the number of healthcare workers in Turkana county"
       ]
     },
     {
-      title: "Healthcare",
-      description: "Making healthcare accessible and affordable while improving quality of care.",
+      title: "Water and Sanitation",
+      description: "Provide safe and clean drinking water for human population and livestock.",
       icon: Heart,
       details: [
-        "Lower prescription costs",
-        "Protect pre-existing conditions",
-        "Expand mental health services"
+        "Increase access to water by expanding the water supply system in Napuu Aquifer to supply water within Lodwar Municipality",
+        "Expand water reticulation in urban centers and rural areas",
+        "Build 2 mega dams along dry seasons grazing areas for livestock and pastrolist",
+        "Operatalize and support existing water associations",
       ]
     },
     {
-      title: "Public Safety",
-      description: "Ensuring our communities are safe while promoting justice system reforms.",
+      title: "Education, Skills and Literacy",
+      description: "Promote education, skills and literacy",
       icon: Shield,
       details: [
-        "Community policing",
-        "Emergency response",
-        "Prevention programs"
+        "Equip and model ECDEs in every village unit",
+        "Improve and support existing TVETs",
+        "Establish mobile schools for our pastoralist communities",
+        "Establish public-private partnership with Higher learning institutions"
       ]
     },
     {
-      title: "Environment",
-      description: "Protecting our natural resources and promoting clean energy solutions.",
+      title: "Infrastructure Development",
+      description: "Build modern, physical and sustainable infrastructure",
       icon: Leaf,
       details: [
-        "Clean energy jobs",
-        "Conservation efforts",
-        "Climate action"
+        "Upgraging county roads into motorable standards",
+        "Open cross boarder roads networks",
+        "Install CCTVs for security survaillance",
+        "Carry out urban beautification within urban centers"
       ]
     },
     {
-      title: "Fiscal Responsibility",
-      description: "Managing taxpayer dollars wisely while investing in our future.",
+      title: "Trade, Industrialization & Enterprise Development",
+      description: "Promoting trade, industrialization & enterpise development",
       icon: BarChart,
       details: [
-        "Balanced budgets",
-        "Smart investments",
-        "Eliminate waste"
+        "Construction of modern markets in every urban center to facilitaye trade",
+        "Establish tannery for leather processing",
+        "Introduce 24 hr economy in urban centers",
+        "Stream and regulate fish marketing in turkana county to maximize profits",
+        "Promote value addition and processing of fish and meat products for local consumption"
       ]
     }
   ];
